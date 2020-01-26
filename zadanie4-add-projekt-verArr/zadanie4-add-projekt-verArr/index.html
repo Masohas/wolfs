@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projekt - dodawanie zadań - z użyciem tablicy</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form action="">
+        <div class="centerInput">
+            <input class="add" type="text">
+            <button class="addBtn">Dodaj zadanie</button>
+            <p class="pAdd">Dodawanie do listy jest zablokowane podczas wyszukiwania, wykasuj tekst z pola wyszukiwania
+                i naciśnij "SZUKAJ"</p>
+        </div>
+        <div class="centerInput">
+            <input class="search" type="text">
+            <button class="searchBtn">Szukaj</button>
+            <p class="pSearch">Żeby wrócić do głównej listy wykasuj wszystko z pola wyszukiwania i naciśnij "SZUKAJ"</p>
+        </div>
+    </form>
+    <h1>Liczba zadań: <span>0</span></h1>
+    <div class="centerUl">
+        <ul>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
